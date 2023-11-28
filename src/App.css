@@ -1,0 +1,134 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+td,
+th {
+  padding: 12px;
+  text-align: left;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+.panel-visible {
+  background-color: grey;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+}
+
+
+
+
+
+.panel-hidden {
+  display: none;
+}
+
+.container-backdrop {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  z-index: 20;
+}
+
+
+
+.btn-add {
+  padding: 5px 10px;
+  /* margin: 100px auto 0; */
+  /* margin: -130px 0; */
+  font-size: 16px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-del {
+  padding: 5px 10px;
+  background-color: red;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-repair {
+  padding: 5px 10px;
+  background-color: green;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.option {
+  margin-bottom: 2rem;
+}
+
+.option-header {
+  color: green;
+  font-weight: 600;
+}
+
+.msg-err {
+  color: red;
+  font-size: 10px;
+}
+
+.btn-submit {
+  background-color: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  border: 1px solid;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  background-color: green;
+  border: 1px solid transparent;
+
+}
